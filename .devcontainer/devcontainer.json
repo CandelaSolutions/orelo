@@ -1,0 +1,7 @@
+{
+    "name": "Flutter",
+    "image": "ghcr.io/cirruslabs/flutter:stable",
+    "customizations": {"vscode": {"extensions": ["Dart-Code.flutter"]}},
+    "forwardPorts": [3000],
+    "postCreateCommand": "flutter doctor"
+}
